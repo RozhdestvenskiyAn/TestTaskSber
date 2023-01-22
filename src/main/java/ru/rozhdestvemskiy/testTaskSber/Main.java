@@ -15,16 +15,16 @@ public class Main {
     public static final String PATH_FILE = "src/main/resources/name_java.xslx";
 
     public static void main(String[] args) {
-        String value1 = "Т704НМ800";
-        String value2 = "Т704НМ799";
-        String value3 = "Т204НМ799";
+        String value1 = "Рў704РќРњ800";
+        String value2 = "Рў704РќРњ799";
+        String value3 = "Рў204РќРњ799";
 
         Set<String> values = readXSLXFile(PATH_FILE);
 
         if (values.contains(value1) || values.contains(value2) || values.contains(value3)) {
-            System.out.println("Номер найден");
+            System.out.println("РќРѕРјРµСЂ РЅР°Р№РґРµРЅ");
         } else {
-            System.out.println("Номер не найден");
+            System.out.println("РќРѕРјРµСЂ РЅРµ РЅР°Р№РґРµРЅ");
         }
     }
 

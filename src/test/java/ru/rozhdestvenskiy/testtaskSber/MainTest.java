@@ -17,6 +17,6 @@ public class MainTest {
         Set<String> result = readXSLXFile(PATH_FILE);
 
         Assertions.assertEquals(43, result.size());
-        Assertions.assertTrue(result.contains("р704мл799"));
+        Assertions.assertTrue(result.contains("п╒704п²п°799"));
     }
 }
